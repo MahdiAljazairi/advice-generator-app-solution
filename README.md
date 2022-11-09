@@ -68,16 +68,16 @@ At the beginnig I wanted to do the button neon glow thing using "`transform: sca
 }
 ```
 
-The effect was great and I was realy happy with it. But, when I tested keyboard focus, the ring on the dice button looked wierd! As if there was another instance of the button floating somewhere else. Then it gets even more distorted when I hover over it and move the cursor away.
+The effect was great and I was realy happy with it. But, when I tested keyboard focus, the ring on the dice button looked weird! As if there was another instance of the button floating to the left. Then it gets even more distorted when I hover over it and move the cursor away.
 
 ![How the focus ring looked like](./focus-ring-bug.png)
 
-Eventually, unfortunately, I resolved to use "`opacity`" instead. Which still looks nice but not as perfect as before. And the focus ring issue has gone.
+Eventually, unfortunately, I resolved to use "`opacity`" instead. Which still looks nice. And the focus ring issue has gone.
 
 I have tested the effect so far on Firefox and Opera, and none of them had any problems.  
-I also tested it on IE11, where it didn't even work &lt;SWEAT DROP&gt;.
+I also tested it on IE11, where it didn't even work 😓.
 
-The bug seems to be on Chrome only, and I hope it somehow gets fixed.
+The bug seems to be on Chrome only. I hope it somehow gets fixed.
 
 ## Tools
 
